@@ -1,5 +1,5 @@
-// app/layout.js
-import './globals.css'; // ✅ already usually present
+
+import './globals.css'; 
 
 export const metadata = {
   title: 'Weather App',
