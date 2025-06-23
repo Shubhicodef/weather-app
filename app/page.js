@@ -13,7 +13,8 @@ export default function Weather() {
 
   const fetchWeather = async () => {
     try {
-      const apiKey = '269b432b6afb940d704742fa2b122905'; // Replace with your real API key
+      const apiKey = '269b432b6afb940d704742fa2b122905'; 
+      
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
       );
